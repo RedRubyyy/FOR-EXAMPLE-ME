@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPAL ULANGAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script type="module" src="script/var.mjs"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h1 style="text-align: center;">WAYAHE ULANGAN WIR</h1>
+    <div class="container">
+
+        <div class="flex-form animetion-form" id="SSxy-box">
+            <h1 class="head-label-form">Cari SSxy</h1>
+            <input type="text" placeholder="Data X (pisahkan dengan ($))" id="dataX-SSxy">
+            <input type="text" placeholder="Data Y (pisahkan dengan ($))" id="dataY-SSxy">
+        </div>
+
+        <div class="flex-form none animetion-form" id="SSxx-box">
+            <h1 class="head-label-form">Cari SSxx</h1>
+            <input type="text" placeholder="Data X (pisahkan dengan ($))" id="dataX-SSxx">
+        </div>
+
+        <div class="flex-form none animetion-form" id="SSyy-box">
+            <h1 class="head-label-form">Cari SSyy</h1>
+            <input type="text" placeholder="Data Y (pisahkan dengan ($))" id="dataY-SSyy">
+        </div>
+        <div class="flex-form none animetion-form" id="r-box">
+            <h1 class="head-label-form">Cari R ?</h1>
+            <div class="sub-box-r none" id="data-ecer">
+                <input type="text" placeholder="Data X (pisahkan dengan ($))" class="w" id="dataX-r">
+                <input type="text" placeholder="Data Y (pisahkan dengan ($))" class="w" id="dataY-r">
+            </div>
+            <div class="sub-box-r " id="data-total">
+                <input type="text" placeholder="Data SSxy" class="w" id="SSxy-r">
+                <input type="text" placeholder="Data SSxx" class="w" id="SSxx-r">
+                <input type="text" placeholder="Data SSyy" class="w" id="SSyy-r">
+            </div>
+            <button id="switch-btn">switch</button>
+            <!-- <input type="text" placeholder="Data Y (pisahkan dengan ($))" id="dataY-SSyy"> -->
+        </div>
+
+        <div class="warp">
+            <p class="label-act-btn">Action Button</p>
+            <div class="box-center-act-btn">
+                <button id="button-result">Create Result</button>
+                <button id="reset-btn">Reset Button</button>
+            </div>
+        </div>
+
+        <p id="result-calc" class="result">Hasil : </p>
+        
+
+        <div class="absoulte-box" id="menu-buttons">
+            <button class="btn-switch" id="SSxy">
+                <i class="fa-solid fa-calculator icon-menu" style="color: #000000;"></i>
+                <p class="label-box-menu">SSxy</p>
+            </button>
+            <button class="btn-switch" id="SSxx">
+                <i class="fa-solid fa-calculator icon-menu" style="color: #000000;"></i>
+                <p class="label-box-menu">SSxx</p>
+            </button>
+            <button class="btn-switch" id="SSyy">
+                <i class="fa-solid fa-calculator icon-menu" style="color: #000000;"></i>
+                <p class="label-box-menu">SSyy</p>
+            </button>
+            <button class="btn-switch" id="r">
+                <i class="fa-solid fa-calculator icon-menu" style="color: #000000;"></i>
+                <p class="label-box-menu">R</p>
+            </button>
+        </div>
+        <footer>CREATED WITH <i class="fa-solid fa-heart" style="color: #000000;"></i> BY N PAKE OPAL</footer>
+    </div>
+    <script type="module" src="script/from-r.mjs"></script>
+    <script type="module" src="script/app.js"></script>
+</body>
+</html>

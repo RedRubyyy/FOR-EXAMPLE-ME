@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.flex-form {
+    padding-top: 2.7rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+.head-label-form{
+    font-size: 1.9rem ;
+    margin-bottom: 1.3rem;
+}
+
+input {
+    font-size: 20px;
+    padding: 3px 10px;
+    margin-bottom: 3px;
+}
+button {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+h1  {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.result {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 2rem;
+
+}
+.none {
+    display: none;
+}
+
+
+.absoulte-box{
+    position: absolute;
+    display: flex;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+
+.animetion-form {
+    animation: animation-form 0.7s ;
+    animation-fill-mode: forwards;
+}
+@keyframes animation-form {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #B4B4B3;
+}
+
+.label-box-menu {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.icon-menu {
+    font-size: 2.1rem;
+}
+.btn-switch {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 24px;
+    display: block;
+    padding: 0.3rem 1.2rem ;
+}
+
+
+.warp {
+    max-width: 300px;
+    margin: auto;
+}
+.box-center-act-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-center-act-btn button {
+    font-size: 1.1rem;
+    width: 50%;
+    margin: 0rem 0.1rem;
+}
+.label-act-btn {
+    font-style: inherit;
+    text-align: center;
+    margin: 1.3rem 0 0.7rem 0 ;
+}
+
+.sub-box-r {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.w {
+    width: 100%;
+}
